@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "mycompanynpmpackages-foobar": "1.0.0",
+    "other": "1.0.0"
+  }
+}

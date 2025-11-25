@@ -16,3 +16,98 @@
 @import url('./badges.css');
 @import url('./back-link.css');
 @import url('./footer.css');
+
+.nav-logo-icon {
+  display: block;
+  width: 150px;
+  height: auto;
+}
+
+main {
+  padding-top: 40px;
+  text-align: center;
+}
+
+/* Title */
+.main-title {
+  font-size: 48px;
+  margin-bottom: 24px;
+  color: #5c4bff;
+  font-weight: 700;
+}
+
+/* Input and start button row */
+#datetime-picker {
+  padding: 10px 14px;
+  width: 260px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: 2px solid #ccc;
+  margin-right: 10px;
+  transition: 0.2s;
+}
+
+#datetime-picker:focus {
+  border-color: #6c63ff;
+  outline: none;
+}
+
+/* Start button */
+button[data-start] {
+  padding: 10px 18px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  background-color: #6c63ff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button[data-start]:disabled {
+  background-color: #c5c5c5;
+  cursor: not-allowed;
+}
+
+button[data-start]:hover:not(:disabled) {
+  background-color: #5a53e6;
+}
+
+/* Timer block */
+.timer {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  font-size: 40px;
+  font-weight: 700;
+  color: #333;
+}
+
+.label {
+  font-size: 14px;
+  color: #666;
+}
+
+/* Form Snackbar */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin: 0 auto;
+  max-width: 300px;
+}
+
+input {
+  padding: 8px 12px;
+  font-size: 20px;
+}

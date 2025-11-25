@@ -1,0 +1,9 @@
+{
+  "resolvers": [
+    "bower-npm-resolver"
+  ],
+  "bowerNpmResolver": {
+    "matchPrefix": "mycompanynpmpackages-",
+    "stripPrefix": false
+  }
+}
